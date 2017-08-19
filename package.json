@@ -1,0 +1,11 @@
+{
+  "name": "javoid-crypt",
+  "private": true,
+  "description": "Bibloteka, która wspiera szyfrowanie i deszyfrowanie komunikatów między stronami internetowymi a aplikacjami na androida.",
+  "scripts": {
+    "dev-js": "cd src && http-server -p 1337 -c-1 -o http://localhost:1337/test.html"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
